@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fff5fbc160b289643bae887ba45632a1, type: 3}
+  m_Name: Frog
+  m_EditorClassIdentifier: 
+  puzzlePieceSolutions:
+  - id: 0
+    position: {x: 0.18503743, y: 0.065469906, z: -4.8256264}
+    mesh: {fileID: -1650161002465246915, guid: 0328b87a758e2674f82405b00d9aadbc, type: 3}
+  - id: 1
+    position: {x: 0.092006564, y: 1.0792311, z: -5.230931}
+    mesh: {fileID: 3409643126917104472, guid: 0328b87a758e2674f82405b00d9aadbc, type: 3}
+  - id: 2
+    position: {x: -0.2874241, y: 0.2613409, z: -5.277167}
+    mesh: {fileID: 2503242652497293855, guid: 0328b87a758e2674f82405b00d9aadbc, type: 3}
+  - id: 3
+    position: {x: -0.048679292, y: 0.40256575, z: -4.9286246}
+    mesh: {fileID: 3473638515721976733, guid: 0328b87a758e2674f82405b00d9aadbc, type: 3}
+  - id: 4
+    position: {x: 0.17476189, y: 0.20755428, z: -5.1071835}
+    mesh: {fileID: -3660509068343803930, guid: 0328b87a758e2674f82405b00d9aadbc, type: 3}
+  - id: 5
+    position: {x: -0.28246993, y: 0.98603433, z: -5.1624455}
+    mesh: {fileID: 7800939147744831775, guid: 0328b87a758e2674f82405b00d9aadbc, type: 3}
+  - id: 6
+    position: {x: -0.059292674, y: 1.4592444, z: -5.2890515}
+    mesh: {fileID: 4089114130419559639, guid: 0328b87a758e2674f82405b00d9aadbc, type: 3}
+  - id: 7
+    position: {x: -0.13998306, y: 1.1996679, z: -5.486322}
+    mesh: {fileID: -6105777772858357198, guid: 0328b87a758e2674f82405b00d9aadbc, type: 3}
+  - id: 8
+    position: {x: -0.15896916, y: 0.8107311, z: -5.5218105}
+    mesh: {fileID: 5311495727309060423, guid: 0328b87a758e2674f82405b00d9aadbc, type: 3}
+  - id: 9
+    position: {x: 0.04914719, y: 0.36723727, z: -5.5725636}
+    mesh: {fileID: -5463294830548570561, guid: 0328b87a758e2674f82405b00d9aadbc, type: 3}
+  distanceToSolve: 0.5

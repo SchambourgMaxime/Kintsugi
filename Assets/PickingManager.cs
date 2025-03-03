@@ -44,7 +44,7 @@ public class PickingManager : MonoBehaviour
     
     private void InputManager_OnPointerPressed(object sender, Vector2 pointerPos)
     {
-        if (selected == null) return;
+        if (!selected) return;
         
         Ray pickingRay = pickingCamera.ScreenPointToRay(pointerPos);
         if (selectedPlane.Raycast(pickingRay, out float distance))
