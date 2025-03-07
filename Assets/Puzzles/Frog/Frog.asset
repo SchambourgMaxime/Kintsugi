@@ -14,33 +14,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puzzlePieceSolutions:
   - id: 0
-    position: {x: 0.18503743, y: 0.065469906, z: -4.8256264}
+    position: {x: 0.10499954, y: 0.0476, z: -4.9560003}
     mesh: {fileID: -1650161002465246915, guid: 0328b87a758e2674f82405b00d9aadbc, type: 3}
   - id: 1
-    position: {x: 0.092006564, y: 1.0792311, z: -5.230931}
+    position: {x: 0.06299953, y: 0.7574, z: -5.243}
     mesh: {fileID: 3409643126917104472, guid: 0328b87a758e2674f82405b00d9aadbc, type: 3}
   - id: 2
-    position: {x: -0.2874241, y: 0.2613409, z: -5.277167}
+    position: {x: -0.2030005, y: 0.1848, z: -5.2920003}
     mesh: {fileID: 2503242652497293855, guid: 0328b87a758e2674f82405b00d9aadbc, type: 3}
   - id: 3
-    position: {x: -0.048679292, y: 0.40256575, z: -4.9286246}
+    position: {x: -0.049000483, y: 0.2835, z: -5.0400004}
     mesh: {fileID: 3473638515721976733, guid: 0328b87a758e2674f82405b00d9aadbc, type: 3}
   - id: 4
-    position: {x: 0.17476189, y: 0.20755428, z: -5.1071835}
+    position: {x: 0.111999534, y: 0.147, z: -5.1520004}
     mesh: {fileID: -3660509068343803930, guid: 0328b87a758e2674f82405b00d9aadbc, type: 3}
   - id: 5
-    position: {x: -0.28246993, y: 0.98603433, z: -5.1624455}
+    position: {x: -0.2030005, y: 0.6923, z: -5.215}
     mesh: {fileID: 7800939147744831775, guid: 0328b87a758e2674f82405b00d9aadbc, type: 3}
   - id: 6
-    position: {x: -0.059292674, y: 1.4592444, z: -5.2890515}
+    position: {x: -0.04200048, y: 1.0234, z: -5.2920003}
     mesh: {fileID: 4089114130419559639, guid: 0328b87a758e2674f82405b00d9aadbc, type: 3}
   - id: 7
-    position: {x: -0.13998306, y: 1.1996679, z: -5.486322}
+    position: {x: -0.08400048, y: 0.8414, z: -5.4320006}
     mesh: {fileID: -6105777772858357198, guid: 0328b87a758e2674f82405b00d9aadbc, type: 3}
   - id: 8
-    position: {x: -0.15896916, y: 0.8107311, z: -5.5218105}
+    position: {x: -0.09800049, y: 0.5691, z: -5.4600005}
     mesh: {fileID: 5311495727309060423, guid: 0328b87a758e2674f82405b00d9aadbc, type: 3}
   - id: 9
-    position: {x: 0.04914719, y: 0.36723727, z: -5.5725636}
+    position: {x: 0.04899953, y: 0.259, z: -5.4880004}
     mesh: {fileID: -5463294830548570561, guid: 0328b87a758e2674f82405b00d9aadbc, type: 3}
-  distanceToSolve: 0.5
+  distanceToSolve: 0.05

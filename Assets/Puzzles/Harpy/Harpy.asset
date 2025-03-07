@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fff5fbc160b289643bae887ba45632a1, type: 3}
+  m_Name: Harpy
+  m_EditorClassIdentifier: 
+  puzzlePieceSolutions:
+  - id: 0
+    position: {x: -0.3402029, y: 0.11019809, z: -5.18}
+    mesh: {fileID: 2801523079899662951, guid: cadec8ebca517da4b94818016db6b264, type: 3}
+  - id: 1
+    position: {x: 0.109693974, y: 0.4036451, z: -5.4}
+    mesh: {fileID: -7432864846034697900, guid: cadec8ebca517da4b94818016db6b264, type: 3}
+  - id: 2
+    position: {x: 0.32643095, y: 0.05174294, z: -5.045}
+    mesh: {fileID: -6097844456201284954, guid: cadec8ebca517da4b94818016db6b264, type: 3}
+  - id: 3
+    position: {x: -0.07002671, y: 0.63414544, z: -5.2025}
+    mesh: {fileID: 5293714144524935194, guid: cadec8ebca517da4b94818016db6b264, type: 3}
+  - id: 4
+    position: {x: -0.042597875, y: 1.2475077, z: -4.7475}
+    mesh: {fileID: -2191938321515801905, guid: cadec8ebca517da4b94818016db6b264, type: 3}
+  - id: 5
+    position: {x: 0.0011071131, y: 0.8963608, z: -5.8775}
+    mesh: {fileID: 4588296076493985462, guid: cadec8ebca517da4b94818016db6b264, type: 3}
+  - id: 6
+    position: {x: 0.2964848, y: 0.1386222, z: -5.4375}
+    mesh: {fileID: 5265698012068927707, guid: cadec8ebca517da4b94818016db6b264, type: 3}
+  - id: 7
+    position: {x: -0.07337551, y: 0.9060669, z: -5.42}
+    mesh: {fileID: 8193032040018302834, guid: cadec8ebca517da4b94818016db6b264, type: 3}
+  - id: 8
+    position: {x: -0.12966743, y: 0.8912006, z: -5.115}
+    mesh: {fileID: 7931237828650012381, guid: cadec8ebca517da4b94818016db6b264, type: 3}
+  - id: 9
+    position: {x: -0.080881104, y: 0.8253073, z: -5.685}
+    mesh: {fileID: 5858257831992494613, guid: cadec8ebca517da4b94818016db6b264, type: 3}
+  - id: 10
+    position: {x: -0.11256134, y: 0.7994745, z: -4.7925}
+    mesh: {fileID: -720796782739474538, guid: cadec8ebca517da4b94818016db6b264, type: 3}
+  - id: 11
+    position: {x: 0.2583793, y: 0.18223266, z: -5.1825}
+    mesh: {fileID: -3943583133214834692, guid: cadec8ebca517da4b94818016db6b264, type: 3}
+  - id: 12
+    position: {x: -0.17205425, y: 0.67095494, z: -5.1}
+    mesh: {fileID: 1820616735719850447, guid: cadec8ebca517da4b94818016db6b264, type: 3}
+  - id: 13
+    position: {x: -0.12984712, y: 0.38385558, z: -5.235}
+    mesh: {fileID: -741279129476032181, guid: cadec8ebca517da4b94818016db6b264, type: 3}
+  - id: 14
+    position: {x: 0.16905417, y: 0.35659492, z: -5.2775}
+    mesh: {fileID: 2942271642502272370, guid: cadec8ebca517da4b94818016db6b264, type: 3}
+  - id: 15
+    position: {x: -0.20825373, y: 0.13498074, z: -5.5925}
+    mesh: {fileID: 3108943282067954566, guid: cadec8ebca517da4b94818016db6b264, type: 3}
+  - id: 16
+    position: {x: -0.13331394, y: 0.8928481, z: -4.85}
+    mesh: {fileID: 7105170440963026952, guid: cadec8ebca517da4b94818016db6b264, type: 3}
+  - id: 17
+    position: {x: -0.103101656, y: 0.69792795, z: -5.4675}
+    mesh: {fileID: -5309359424112855008, guid: cadec8ebca517da4b94818016db6b264, type: 3}
+  - id: 18
+    position: {x: -0.05189314, y: 1.0093216, z: -5.67}
+    mesh: {fileID: 7155373569482650367, guid: cadec8ebca517da4b94818016db6b264, type: 3}
+  - id: 19
+    position: {x: -0.043406293, y: 1.2606078, z: -5.2825}
+    mesh: {fileID: -5065338410244934993, guid: cadec8ebca517da4b94818016db6b264, type: 3}
+  - id: 20
+    position: {x: 0.18435572, y: 0.17162098, z: -5.01}
+    mesh: {fileID: -3221933140187018135, guid: cadec8ebca517da4b94818016db6b264, type: 3}
+  - id: 21
+    position: {x: 0.18587384, y: 0.30667338, z: -5.2225}
+    mesh: {fileID: 7955710677927766698, guid: cadec8ebca517da4b94818016db6b264, type: 3}
+  - id: 22
+    position: {x: -0.109598294, y: 0.98646677, z: -4.98}
+    mesh: {fileID: -2851522749763906064, guid: cadec8ebca517da4b94818016db6b264, type: 3}
+  - id: 23
+    position: {x: -0.062312305, y: 0.108152576, z: -4.9775}
+    mesh: {fileID: 7975543377415706856, guid: cadec8ebca517da4b94818016db6b264, type: 3}
+  - id: 24
+    position: {x: -0.049343612, y: 1.0792214, z: -5.315}
+    mesh: {fileID: -7859963461374986055, guid: cadec8ebca517da4b94818016db6b264, type: 3}
+  - id: 25
+    position: {x: 0.13761604, y: 1.4264601, z: -5.755}
+    mesh: {fileID: -5259284925548916634, guid: cadec8ebca517da4b94818016db6b264, type: 3}
+  - id: 26
+    position: {x: 0.14229153, y: 0.1642212, z: -5.59}
+    mesh: {fileID: 2654686842584927008, guid: cadec8ebca517da4b94818016db6b264, type: 3}
+  - id: 27
+    position: {x: 0.0137806, y: 1.1428062, z: -5.7775}
+    mesh: {fileID: -1411601429451206974, guid: cadec8ebca517da4b94818016db6b264, type: 3}
+  - id: 28
+    position: {x: -0.10754532, y: 0.8062868, z: -5.245}
+    mesh: {fileID: 4349510166744010233, guid: cadec8ebca517da4b94818016db6b264, type: 3}
+  - id: 29
+    position: {x: 0.12070281, y: 1.1939301, z: -5.935}
+    mesh: {fileID: -1035958866223942518, guid: cadec8ebca517da4b94818016db6b264, type: 3}
+  distanceToSolve: 0.05

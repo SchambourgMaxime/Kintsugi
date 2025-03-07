@@ -1,9 +1,13 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
 public class ZoomControl : MonoBehaviour
 {
+    public event Action OnZoomPressed;
+    public event Action OnZoomReleased;
+    
     [SerializeField] private float maxZoom = -1f;
     [SerializeField] private List<Transform> cameraCenters;
 
@@ -18,17 +22,19 @@ public class ZoomControl : MonoBehaviour
         if (TryGetComponent(out UIDocument doc))
         {
             Slider slider = doc.rootVisualElement.Q<Slider>("RotationSlider");
+            slider.RegisterCallback<PointerDownEvent>(_ => OnZoomPressed?.Invoke());
+            slider.RegisterCallback<PointerUpEvent>(_ => OnZoomReleased?.Invoke());
             slider.RegisterValueChangedCallback(evt =>
             {
-                for (int i = 0; i < cameraCenters.Count; i++)
+                foreach (Transform center in cameraCenters)
                 {
-                    Vector3 camToCenter = (cameraCenters[i].GetComponentInChildren<Camera>().transform.position -
-                                           cameraCenters[i].transform.position).normalized;
+                    Vector3 camToCenter = (center.GetComponentInChildren<Camera>().transform.position -
+                                           center.transform.position).normalized;
                     
-                        float length = baseDistance - (maxZoom * evt.newValue);
-                        Vector3 offset = length * camToCenter;
-                        cameraCenters[i].GetComponentInChildren<Camera>().transform.position =
-                            cameraCenters[i].transform.position + offset;
+                    float length = baseDistance - (maxZoom * evt.newValue);
+                    Vector3 offset = length * camToCenter;
+                    center.GetComponentInChildren<Camera>().transform.position =
+                        center.transform.position + offset;
                 }
             });
         }

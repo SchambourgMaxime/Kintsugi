@@ -19,6 +19,7 @@ public class PuzzleSolution_Inspector : Editor
                 if (Selection.gameObjects[i].TryGetComponent(out PuzzlePieceController puzzlePieceController))
                 {
                     puzzlePieceController.SetID(i);
+                    EditorUtility.SetDirty(puzzlePieceController);
                     puzzleSolution.puzzlePieceSolutions.Add(
                         new PuzzlePieceSolution()
                         {
