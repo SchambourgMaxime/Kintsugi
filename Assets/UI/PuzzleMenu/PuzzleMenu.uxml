@@ -1,0 +1,16 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:Template name="PuzzleMenuPiece" src="project://database/Assets/UI/PuzzleMenu/PuzzleMenuPiece.uxml?fileID=9197481963319205126&amp;guid=5a61aa66d4912db43bbe3ee7e8789f4c&amp;type=3#PuzzleMenuPiece" />
+    <Style src="project://database/Assets/UI/PuzzleMenu/PuzzleMenu.uss?fileID=7433441132597879392&amp;guid=56b6dcbdcc65b6a4e884802ea576434e&amp;type=3#PuzzleMenu" />
+    <engine:Button icon-image="project://database/Assets/UI/PuzzleMenu/puzzlePieceicon.png?fileID=2800000&amp;guid=2f83792424ecc024f9a55f38cd08cdad&amp;type=3#puzzlePieceicon" name="PuzzleMenuButton" style="right: 10%; top: 5%; margin-top: auto; margin-right: auto; margin-bottom: auto; margin-left: auto; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px; border-bottom-left-radius: 50px; width: 100px; height: 100px; position: absolute; background-color: rgb(44, 62, 80);" />
+    <engine:VisualElement name="PuzzleMenu" class="PuzzleMenuClosed" style="flex-grow: 0; height: 20%; background-color: rgb(44, 62, 80); justify-content: center; transition-property: translate; transition-duration: 1s;">
+        <engine:ScrollView mode="Horizontal" language-direction="LTR" focusable="false" style="flex-grow: 0.8;">
+            <engine:Instance template="PuzzleMenuPiece" name="PuzzlePiece" />
+            <engine:Instance template="PuzzleMenuPiece" name="PuzzlePiece" />
+            <engine:Instance template="PuzzleMenuPiece" name="PuzzlePiece" />
+            <engine:Instance template="PuzzleMenuPiece" name="PuzzlePiece" />
+            <engine:Instance template="PuzzleMenuPiece" name="PuzzlePiece" />
+            <engine:Instance template="PuzzleMenuPiece" name="PuzzlePiece" />
+        </engine:ScrollView>
+        <engine:Button name="closeMenu" style="position: absolute; right: 42px; background-color: rgb(44, 62, 80); margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; bottom: -15%; height: 74px; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px; width: 246px; background-image: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=1169890249420208065&amp;guid=97c9e4376be78c84ebdbf4fb43d0e356&amp;type=3#arrow-up&quot;); background-position-x: center 0; background-size: 34% 100%;" />
+    </engine:VisualElement>
+</engine:UXML>

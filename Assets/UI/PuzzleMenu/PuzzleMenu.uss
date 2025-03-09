@@ -1,0 +1,12 @@
+#PuzzlePiece {
+    width: 300px;
+    height: 300px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.PuzzleMenuClosed {
+    transition-property: translate;
+    transition-duration: 1s;
+    translate: 0 -115%;
+}

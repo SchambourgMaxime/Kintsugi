@@ -21,7 +21,7 @@ public class ZoomControl : MonoBehaviour
         
         if (TryGetComponent(out UIDocument doc))
         {
-            Slider slider = doc.rootVisualElement.Q<Slider>("RotationSlider");
+            Slider slider = doc.rootVisualElement.Q<Slider>("ZoomSlider");
             slider.RegisterCallback<PointerDownEvent>(_ => OnZoomPressed?.Invoke());
             slider.RegisterCallback<PointerUpEvent>(_ => OnZoomReleased?.Invoke());
             slider.RegisterValueChangedCallback(evt =>

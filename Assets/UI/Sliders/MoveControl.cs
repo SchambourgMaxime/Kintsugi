@@ -15,7 +15,7 @@ public class MoveControl : MonoBehaviour
     {
         if (TryGetComponent(out UIDocument doc))
         {
-            Slider slider = doc.rootVisualElement.Q<Slider>("RotationSlider");
+            Slider slider = doc.rootVisualElement.Q<Slider>("MoveSlider");
             slider.RegisterCallback<PointerDownEvent>(_ => OnMovePressed?.Invoke());
             slider.RegisterCallback<PointerUpEvent>(_ => OnMoveReleased?.Invoke());
             slider.RegisterValueChangedCallback(evt =>

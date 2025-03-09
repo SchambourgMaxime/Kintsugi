@@ -1,0 +1,4 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles/Sliders.uss?fileID=7433441132597879392&amp;guid=302caee9462608e4e91e9964a37ccdc8&amp;type=3#Sliders" />
+    <engine:Slider value="0" high-value="1" low-value="0" name="ZoomSlider" direction="Vertical" show-input-field="false" class="pause__slider" style="position: absolute; top: 10%; bottom: 10%; left: 5%;" />
+</engine:UXML>
