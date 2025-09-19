@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Kamgam/UIToolkitGlow/Examples/GlowExamplesStyle.uss?fileID=7433441132597879392&amp;guid=541245f5923b2ca469b72c31ad0cbd5d&amp;type=3#GlowExamplesStyle" />
+    <ui:VisualElement style="background-image: none; -unity-background-scale-mode: scale-and-crop; flex-wrap: nowrap; flex-grow: 1; background-color: rgb(255, 255, 255); align-items: center; flex-direction: column;">
+        <Kamgam.UIToolkitGlow.Glow layout-first-child="true" inner-color="#00FFFF80" outer-color="#FFFFFF00" split-width="true" width-left="70" width-top="60" width-right="60" width-bottom="70" offset-x="55" offset-y="42" offset-everything="true" inherit-border-colors="true" style="height: 152px; width: 644px; margin-left: 125px; margin-right: 125px; margin-top: 125px; margin-bottom: 125px; background-color: rgb(0, 0, 0); border-left-color: rgb(255, 144, 0); border-right-color: rgb(255, 0, 167); border-top-color: rgb(0, 125, 255); border-bottom-color: rgb(0, 255, 7); display: flex;">
+            <ui:Label text="Glow with offset" display-tooltip-when-elided="true" style="height: 100%; width: 100%; color: rgb(207, 207, 207); font-size: 66px; -unity-font-style: bold; -unity-text-align: middle-center; overflow: hidden; padding-left: 31px; padding-right: 31px; padding-top: 31px; padding-bottom: 31px;" />
+        </Kamgam.UIToolkitGlow.Glow>
+        <ui:VisualElement style="flex-direction: row;">
+            <Kamgam.UIToolkitGlow.Shadow blur-width="50" inner-color="#00000069" offset-y="40.6" scale-x="0.85" scale-y="0.85" vertices-per-corner="21" layout-first-child="true" offset-x="25.5" style="height: 270px; width: 420px; border-top-left-radius: 168px; border-bottom-right-radius: 52px; top: 31px;">
+                <ui:VisualElement style="background-color: rgba(119, 255, 0, 0.57);">
+                    <ui:Label text="Shadow" display-tooltip-when-elided="true" style="-unity-text-align: middle-center; height: 100%; width: 100%; font-size: 76px; color: rgb(211, 255, 172); -unity-font-style: bold;" />
+                </ui:VisualElement>
+            </Kamgam.UIToolkitGlow.Shadow>
+            <Kamgam.UIToolkitGlow.Glow overlap-width="-5" inner-color="#00B7FFFF" outer-color="#00B7FFFF" layout-first-child="true" width="20" preserve-hard-corners="true" style="height: 240px; width: 390px; margin-left: 127px; margin-top: 45px; background-color: rgb(164, 215, 243); border-top-left-radius: 168px; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 52px;">
+                <ui:Label text="Outline" display-tooltip-when-elided="true" style="-unity-text-align: middle-center; font-size: 66px; -unity-font-style: bold; color: rgb(255, 255, 255);" />
+            </Kamgam.UIToolkitGlow.Glow>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,20 @@
+.unity-progress-bar__container
+{
+	max-height: 100%;
+	height: 100%;
+}
+
+.unity-progress-bar__background
+{
+	background-color: #291900;
+	border-radius: 20px;
+	border-color: black;
+}
+
+.unity-progress-bar__progress
+{
+	background-color: #66ff00;
+	/* background-image: url('project://database/Assets/Kamgam/UIToolkitParticles/Examples/Textures/ProgressFill.png?guid=8d096752e68f6754f9beb411a70a671b'); */
+	margin: 6px;
+	border-radius: 15px;
+}

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5e0eac75510fd8447b6b07fcbc3ca637
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 252297
+  packageName: vInspector 2
+  packageVersion: 2.0.12
+  assetPath: Assets/vInspector/VInspector.asmdef
+  uploadId: 731045

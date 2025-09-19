@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: f9a15cc7507320a428e6af326d602853
+timeCreated: 1590532001
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168031
+  packageName: Events 2.0 for Unity
+  packageVersion: 1.8.0
+  assetPath: Assets/Gabriel Pereira/Events 2.0 for Unity/Scripts/Editor/UI/Dropdown2Editor.cs
+  uploadId: 746169

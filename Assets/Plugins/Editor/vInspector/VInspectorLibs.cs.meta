@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a9fef8497966fbf4bbf6a8351fb9998a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 252297
+  packageName: vInspector 2
+  packageVersion: 2.0.12
+  assetPath: Assets/vInspector/VInspectorLibs.cs
+  uploadId: 731045

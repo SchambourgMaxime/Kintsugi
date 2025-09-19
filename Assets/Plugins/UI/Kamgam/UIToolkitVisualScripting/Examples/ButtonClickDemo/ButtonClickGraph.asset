@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: ButtonClickGraph
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"UIToolkitVisualScriptingDemo","summary":null,"pan":{"x":818.2,"y":89.60001},"zoom":1.0,"elements":[{"documentVarName":"document","cacheResult":true,"defaultValues":{"Document":null,"Name":null,"Class":null,"Type":{"$content":"Button","$type":"Kamgam.UIToolkitVisualScripting.UIElementType"}},"position":{"x":314.0,"y":56.0},"guid":"135cc56d-a2f6-4161-be77-f6a4d76debf2","$version":"A","$type":"Kamgam.UIToolkitVisualScripting.Nodes.UIDocumentQueryOne","$id":"9"},{"coroutine":false,"defaultValues":{},"position":{"x":454.0,"y":-41.0},"guid":"aa70d2df-9dd4-48f2-83ca-a5e44b6af5f0","$version":"A","$type":"Unity.VisualScripting.Start","$id":"11"},{"coroutine":false,"defaultValues":{},"position":{"x":615.0,"y":22.0},"guid":"d40844b7-ea8f-46bc-bc8a-04d8c31ae6df","$version":"A","$type":"Kamgam.UIToolkitVisualScripting.Nodes.OnOnButtonClick","$id":"13"},{"chainable":false,"member":{"name":"Log","parameterTypes":["System.Object"],"targetType":"UnityEngine.Debug","targetTypeName":"UnityEngine.Debug","$version":"A"},"defaultValues":{},"position":{"x":900.0,"y":43.0},"guid":"49fe8146-c7a0-4e72-b9ae-3191e5a28fa2","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"15"},{"type":"System.String","value":{"$content":"I
+      have been clicked, yay!","$type":"System.String"},"defaultValues":{},"position":{"x":648.0,"y":171.0},"guid":"b3b7f4e7-8f70-4795-9db5-04a32425d42b","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"18"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"Register
+      Callbacks","guid":"de69e7f6-d8aa-4a98-8525-35e9620f8ddf","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"15"},"destinationKey":"enter","guid":"7a6562b4-94ac-4154-9ed6-1659ffc68b56","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"result","destinationUnit":{"$ref":"13"},"destinationKey":"element","guid":"87c3a77a-83be-4086-9d52-0f074d3d9ed9","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"output","destinationUnit":{"$ref":"15"},"destinationKey":"%message","guid":"dec677c3-3605-4b2a-bc5e-eb8ef78b9c71","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

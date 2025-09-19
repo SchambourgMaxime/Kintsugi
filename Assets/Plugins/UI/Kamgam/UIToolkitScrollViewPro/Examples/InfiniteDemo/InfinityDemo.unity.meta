@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a9548a67ab2f2fd418fdc54cea4d609d
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 262334
+  packageName: UI Toolkit Scroll View Pro - Infinite Scrolling, Snapping, Paging
+  packageVersion: 1.3.2
+  assetPath: Assets/Kamgam/UIToolkitScrollViewPro/Examples/InfiniteDemo/InfinityDemo.unity
+  uploadId: 712086

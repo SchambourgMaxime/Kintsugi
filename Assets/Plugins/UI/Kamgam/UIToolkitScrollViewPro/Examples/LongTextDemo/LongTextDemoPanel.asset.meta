@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b6a3878357f86d34a957e8e4c047bb91
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 262334
+  packageName: UI Toolkit Scroll View Pro - Infinite Scrolling, Snapping, Paging
+  packageVersion: 1.3.2
+  assetPath: Assets/Kamgam/UIToolkitScrollViewPro/Examples/LongTextDemo/LongTextDemoPanel.asset
+  uploadId: 712086

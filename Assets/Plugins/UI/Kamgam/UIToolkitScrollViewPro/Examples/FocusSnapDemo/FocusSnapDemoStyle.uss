@@ -1,0 +1,18 @@
+ScrollViewPro .unity-label
+{
+    margin: 20px;
+    padding: 15px;
+
+    width: 338px;
+    height: 340px;
+
+    font-size: 230px;
+}
+
+ScrollViewPro .unity-label:focus
+{
+    padding: 0px;
+
+    border-width: 15px;
+    border-color: white;
+}

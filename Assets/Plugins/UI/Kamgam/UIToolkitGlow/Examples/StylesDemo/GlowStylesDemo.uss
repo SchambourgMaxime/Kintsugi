@@ -1,0 +1,32 @@
+.g-glow
+{
+    /* These are all the supprted custom styles für glows. You can also use them on shadows */
+    /* Notice that none of the values have a dimension (no 'px'). */
+
+    --glow-width: 60;               /* float */
+    --glow-overlap-width: -4;       /* float */
+
+    --glow-split-width: false;      /* bool */
+    --glow-width-left: 10;          /* float */
+    --glow-width-top: 30;           /* float */
+    --glow-width-right: 60;         /* float */
+    --glow-width-bottom: 90;        /* float */
+
+    --glow-offset-x: 10;            /* float */
+    --glow-offset-y: 30;            /* float */
+
+    --glow-offset-everything: false; /* bool */
+    
+    --glow-scale-x: 1;              /* float */
+    --glow-scale-y: 1;              /* float */
+
+    --glow-inner-color: red;                /* color */
+    --glow-outer-color: rgba(255,255,0,0);  /* color */
+
+    --glow-inherit-border-colors: false;  /* bool */
+    --glow-force-subdivision: false;      /* bool */
+    --glow-preserve-hard-corners: false;  /* bool */
+    --glow-fill-center: false;            /* bool */
+
+    --glow-vertext-distance: 100;        /* float */
+}

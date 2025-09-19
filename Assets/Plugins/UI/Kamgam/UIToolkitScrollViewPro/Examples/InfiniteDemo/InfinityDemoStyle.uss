@@ -1,0 +1,11 @@
+ScrollViewPro .unity-label
+{
+    padding: 15px;
+}
+
+ScrollViewPro .unity-label:focus
+{
+    border-width: 15px;
+    border-color: white;
+    padding: 0px;
+}

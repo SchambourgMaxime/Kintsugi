@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="ScrollToAnimatedDemo" style="flex-grow: 1; opacity: 1; background-image: url(&apos;project://database/Assets/Kamgam/UIToolkitScrollViewPro/Examples/ExamplesBackground.png?fileID=2800000&amp;guid=be6a70bdd5e23cb4e9758fa340d807ee&amp;type=3#ExamplesBackground&apos;);">
+        <ui:Label text="Scroll To Animated" name="Title" style="-unity-font-style: bold; font-size: 52px; color: rgb(255, 255, 255); margin-left: 20px; margin-right: 20px; margin-top: 20px; margin-bottom: 20px;" />
+        <ui:VisualElement name="Menu" style="height: 92px; flex-direction: row; margin-left: 20px; margin-right: 20px; margin-top: 20px; margin-bottom: 20px;">
+            <ui:Button text="A" display-tooltip-when-elided="true" name="Scroll1" style="height: 83px; width: 81px; -unity-font-style: bold;" />
+            <ui:Button text="B" display-tooltip-when-elided="true" name="Scroll2" style="height: 83px; width: 81px; -unity-font-style: bold;" />
+            <ui:Button text="C" display-tooltip-when-elided="true" name="Scroll3" style="height: 83px; width: 81px; -unity-font-style: bold;" />
+            <ui:Button text="D" display-tooltip-when-elided="true" name="Scroll4" style="height: 83px; width: 81px; -unity-font-style: bold;" />
+            <ui:Button text="E" display-tooltip-when-elided="true" name="Scroll5" style="height: 83px; width: 81px; -unity-font-style: bold;" />
+            <ui:DropdownField index="0" name="Easing" choices="Ease" style="width: 280px; font-size: 36px;" />
+            <ui:TextField picking-mode="Ignore" value="1" name="Duration" style="width: 100px; font-size: 36px;" />
+            <ui:DropdownField index="0" name="AlignY" choices="AlignY" style="width: 200px; font-size: 36px;" />
+            <ui:TextField picking-mode="Ignore" value="1" name="Margin" style="width: 100px; font-size: 36px;" />
+        </ui:VisualElement>
+        <Kamgam.UIToolkitScrollViewPro.ScrollViewPro mouse-wheel-scroll-speed="18" mode="Vertical" touch-scroll-type="Elastic" class="scroll-and-snap" style="height: 397px; flex-grow: 1; margin-bottom: 20px; margin-right: 20px;">
+            <ui:Label text="A" name="LabelA" focusable="true" class="content-box" style="white-space: normal; background-color: rgb(225, 255, 150); font-size: 350px; -unity-text-align: upper-center; color: rgb(173, 212, 77); margin-left: 20px; margin-right: 20px; margin-top: 0; margin-bottom: 20px; height: 410px;" />
+            <ui:Label text="B" name="LabelB" focusable="true" class="content-box" style="white-space: normal; background-color: rgb(255, 218, 150); font-size: 350px; -unity-text-align: upper-center; color: rgb(248, 189, 80); margin-left: 20px; margin-right: 20px; margin-top: 20px; margin-bottom: 20px; height: 550px;" />
+            <ui:Label text="C" name="LabelC" focusable="true" class="content-box" style="white-space: normal; background-color: rgb(255, 150, 166); font-size: 250px; margin-left: 20px; color: rgb(248, 99, 122); -unity-text-align: upper-center; margin-right: 20px; margin-top: 20px; margin-bottom: 20px; height: 300px; width: 900px;" />
+            <ui:Label text="D" name="LabelD" focusable="true" class="content-box" style="white-space: normal; background-color: rgb(152, 150, 255); font-size: 150px; margin-left: 240px; color: rgb(103, 101, 221); -unity-text-align: upper-center; margin-right: 20px; margin-top: 20px; margin-bottom: 20px; height: 200px; width: 900px;" />
+            <ui:Label text="E" name="LabelE" focusable="true" class="content-box" style="white-space: normal; background-color: rgb(249, 255, 150); font-size: 350px; margin-left: 80px; color: rgb(197, 186, 47); -unity-text-align: upper-center; margin-right: 20px; margin-top: 20px; margin-bottom: 0; height: 410px;" />
+        </Kamgam.UIToolkitScrollViewPro.ScrollViewPro>
+    </ui:VisualElement>
+</ui:UXML>

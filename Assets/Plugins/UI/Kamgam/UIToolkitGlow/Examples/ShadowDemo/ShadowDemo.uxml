@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Kamgam/UIToolkitGlow/Examples/GlowExamplesStyle.uss?fileID=7433441132597879392&amp;guid=541245f5923b2ca469b72c31ad0cbd5d&amp;type=3#GlowExamplesStyle" />
+    <ui:VisualElement style="background-image: none; -unity-background-scale-mode: scale-and-crop; flex-wrap: nowrap; flex-grow: 1; background-color: rgb(255, 255, 255);">
+        <Kamgam.UIToolkitGlow.Shadow layout-first-child="true" scale-x="0.78" scale-y="0.9" offset-x="0.83" offset-y="5.88" style="margin-top: 70px; margin-left: 60px; width: 250px; height: 80px;">
+            <ui:VisualElement style="background-color: rgba(0, 0, 0, 255);">
+                <ui:Label text="Shadow" display-tooltip-when-elided="true" name="Label" style="-unity-font-style: bold; font-size: 38px; width: 100%; height: 71px; color: rgba(255, 255, 255, 255); -unity-text-align: middle-center;" />
+            </ui:VisualElement>
+        </Kamgam.UIToolkitGlow.Shadow>
+    </ui:VisualElement>
+</ui:UXML>

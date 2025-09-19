@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adb9c12a8c6c949f7af83a3d238359d0, type: 3}
+  m_Name: vFolders Data
+  m_EditorClassIdentifier: 
+  folderDatas_byGuid:
+    keys:
+    - 1b3e8a45eb263f2468b3bebd1804d291
+    - f365bead51a31f446ae42adada8c1c83
+    - ca6993bb5623c664496f56ae9cd387e8
+    - 8a12705e822e39c48b65fe42c5fcd681
+    - 2b40335e0a5bcd542bcb482d173cf4de
+    - 3e91d169f15bddb4e8fa282e552ced9e
+    - 11d0a27275093ce4e841fdf7ce901431
+    - 765e447b6b98b284d971eb519477f470
+    - 958788d8c7d079f42bc326479bc1583c
+    - 6ea315d0fd7389c41b19996891e99ae3
+    - f5998880564001a44ad44a6287bd6d3f
+    - 07415f3633bdb0b4a84f1558eb4191fc
+    - 9b618df8779c4d8408b221dcf0ce17bb
+    - 0dd556092c2a27047a488f5a12def941
+    - 965d5cc2c0a1bcd4bba959c0c7c26133
+    - 275fb4c0648d8774a9a57ff818374ad3
+    - 03f1419df93eb3d4e99a43ab3ccd25fb
+    - 49014ee6538e7824e834f3f02cd9ec82
+    - 5f7a8563d3e4f454aa5e5af93cc68670
+    - 7dbdcc1f290c7401990e400659d59124
+    - 65ddd3e28fa0c8b4392f019ef2246344
+    - 48fd3238373974aa49b2b9730291ee94
+    - 746c1810e45a0ee48ae9f9711089c4d9
+    - 5d90da57f1567b04b9b8433fffef2991
+    - 2921873d4174c8f45b3736df384038f0
+    values:
+    - iconNameOrGuid: Settings Icon
+      colorIndex: 1
+      isIconRecursive: 0
+      isColorRecursive: 1
+    - iconNameOrGuid: RawImage Icon
+      colorIndex: 2
+      isIconRecursive: 1
+      isColorRecursive: 1
+    - iconNameOrGuid: TextAsset Icon
+      colorIndex: 4
+      isIconRecursive: 1
+      isColorRecursive: 1
+    - iconNameOrGuid: Settings Icon
+      colorIndex: 1
+      isIconRecursive: 1
+      isColorRecursive: 1
+    - iconNameOrGuid: BuildSettings.WebGL
+      colorIndex: 6
+      isIconRecursive: 1
+      isColorRecursive: 1
+    - iconNameOrGuid: AssemblyDefinitionAsset Icon
+      colorIndex: 4
+      isIconRecursive: 1
+      isColorRecursive: 1
+    - iconNameOrGuid: BuildSettings.WebGL
+      colorIndex: 6
+      isIconRecursive: 1
+      isColorRecursive: 1
+    - iconNameOrGuid: UIDocument Icon
+      colorIndex: 10
+      isIconRecursive: 1
+      isColorRecursive: 1
+    - iconNameOrGuid: cs Script Icon
+      colorIndex: 7
+      isIconRecursive: 1
+      isColorRecursive: 1
+    - iconNameOrGuid: SceneAsset Icon
+      colorIndex: 3
+      isIconRecursive: 1
+      isColorRecursive: 1
+    - iconNameOrGuid: RawImage Icon
+      colorIndex: 4
+      isIconRecursive: 1
+      isColorRecursive: 1
+    - iconNameOrGuid: Settings Icon
+      colorIndex: 4
+      isIconRecursive: 1
+      isColorRecursive: 1
+    - iconNameOrGuid: BuildSettings.Android
+      colorIndex: 0
+      isIconRecursive: 1
+      isColorRecursive: 0
+    - iconNameOrGuid: BuildSettings.WebGL
+      colorIndex: 0
+      isIconRecursive: 0
+      isColorRecursive: 0
+    - iconNameOrGuid: BuildSettings.Windows
+      colorIndex: 0
+      isIconRecursive: 1
+      isColorRecursive: 0
+    - iconNameOrGuid: GameObject On Icon
+      colorIndex: 0
+      isIconRecursive: 1
+      isColorRecursive: 0
+    - iconNameOrGuid: RawImage Icon
+      colorIndex: 0
+      isIconRecursive: 1
+      isColorRecursive: 0
+    - iconNameOrGuid: RawImage Icon
+      colorIndex: 0
+      isIconRecursive: 1
+      isColorRecursive: 0
+    - iconNameOrGuid: Settings Icon
+      colorIndex: 0
+      isIconRecursive: 1
+      isColorRecursive: 0
+    - iconNameOrGuid: UIDocument Icon
+      colorIndex: 0
+      isIconRecursive: 1
+      isColorRecursive: 0
+    - iconNameOrGuid: GameObject On Icon
+      colorIndex: 0
+      isIconRecursive: 1
+      isColorRecursive: 0
+    - iconNameOrGuid: Font Icon
+      colorIndex: 0
+      isIconRecursive: 1
+      isColorRecursive: 0
+    - iconNameOrGuid: Prefab Icon
+      colorIndex: 0
+      isIconRecursive: 0
+      isColorRecursive: 0
+    - iconNameOrGuid: Mesh Icon
+      colorIndex: 0
+      isIconRecursive: 0
+      isColorRecursive: 0
+    - iconNameOrGuid: Material Icon
+      colorIndex: 0
+      isIconRecursive: 0
+      isColorRecursive: 0
+  bookmarks: []

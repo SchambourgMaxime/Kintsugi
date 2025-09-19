@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="height: 100px; background-color: rgb(5, 0, 0);">
+        <ui:Label text="Emitter Shape &quot;Box Fill&quot; will spawn particles from the whole area." display-tooltip-when-elided="true" style="color: rgb(214, 214, 214); padding-left: 9px; padding-right: 9px; padding-top: 9px; padding-bottom: 9px; font-size: 20%; -unity-text-align: middle-center; flex-grow: 1; white-space: normal;" />
+    </ui:VisualElement>
+    <Kamgam.UIToolkitParticles.ParticleImage picking-mode="Ignore" Tint="#FFFFFFFF" Emitter-Shape="BoxFill" class="pi-7d328316-efc2-448c-b7be-053f5917e852" style="flex-grow: 1;" />
+    <ui:VisualElement style="height: 100px; background-color: rgb(0, 0, 0);">
+        <ui:Label text="Enable &quot;Preview In GameView&quot; to make it fill the area in the GameView." display-tooltip-when-elided="true" style="color: rgb(214, 214, 214); padding-left: 9px; padding-right: 9px; padding-top: 9px; padding-bottom: 9px; font-size: 20%; -unity-text-align: middle-center; flex-grow: 1; white-space: normal;" />
+    </ui:VisualElement>
+</ui:UXML>

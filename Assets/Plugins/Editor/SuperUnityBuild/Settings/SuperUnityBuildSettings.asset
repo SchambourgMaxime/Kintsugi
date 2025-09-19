@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7836553826213680121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0acaf75cc66fc934ea46bf602fc7c245, type: 3}
+  m_Name: WebGL
+  m_EditorClassIdentifier: 
+  enabled: 1
+  distributionList:
+    distributions: []
+  architectures:
+  - target: 20
+    name: WebGL
+    enabled: 1
+    binaryNameFormat: '{0}'
+  variants: []
+  scriptingBackends:
+  - scriptingImplementation: 1
+    name: IL2CPP
+    enabled: 1
+  platformName: WebGL
+  targetGroup: 13
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d5886119a5c7b34d8872ab527ca3e1b, type: 3}
+  m_Name: SuperUnityBuildWebGLSettings
+  m_EditorClassIdentifier: 
+  _basicSettings:
+    baseBuildFolder: Build
+    buildPath: '$PLATFORM/$VERSION '
+    openFolderPostBuild: 0
+    constantsFileLocation: Assets\SuperUnityBuild
+  _productParameters:
+    buildCounter: 18
+    buildVersion: 2.0.39
+    versionTemplate: 2.0.39
+    autoGenerate: 0
+    syncWithPlayerSettings: 1
+  _releaseTypeList:
+    releaseTypes:
+    - typeName: WebGL
+      bundleIdentifier: com.Voulez-vous.Forindustrie
+      companyName: Voulez-vous
+      productName: Forindustrie
+      syncAppNameWithProduct: 0
+      appBuildName: 
+      buildOptions: 0
+      customDefines: 
+      sceneList:
+        releaseScenes:
+        - fileGUID: d07a532c0684ea24cbfc060bdb52b180
+          sceneActive: 0
+        - fileGUID: ec6a57bab1b06dc449594311029c409d
+          sceneActive: 1
+        - fileGUID: 79c96afb3cc7f944b95882a597719cea
+          sceneActive: 0
+        - fileGUID: 337a382bd497332488a229012227bea5
+          sceneActive: 0
+        - fileGUID: 865a21da0a18e2d49a5f78fd66c162ab
+          sceneActive: 0
+        - fileGUID: 497ca352c3267364482376a040fb2d3e
+          sceneActive: 0
+        - fileGUID: deb4440e60d43a44aa97cbf9659654bd
+          sceneActive: 0
+        - fileGUID: c7c2438b06fdeef448faa1d91cf452c4
+          sceneActive: 0
+        - fileGUID: b12e1606c93e1cd4a9c62f7ea4daf3ac
+          sceneActive: 0
+        - fileGUID: cc0f3b49c249ef344b6e14baa3c85b92
+          sceneActive: 0
+        - fileGUID: 568a7718e1f48fa42922d64b19826040
+          sceneActive: 0
+        - fileGUID: 5384287b5e80ab4498254af67f10448e
+          sceneActive: 0
+        - fileGUID: f1d1c9a502feb454786d0beafcaf5fff
+          sceneActive: 0
+        - fileGUID: 03c4a734422585b4295956b5d951af6f
+          sceneActive: 0
+        - fileGUID: 4198807097570e3439b38116d8cd8af1
+          sceneActive: 0
+        - fileGUID: 82a32c75ac5aba249bb65da73635e864
+          sceneActive: 0
+        - fileGUID: 79ef2efd49f57d2468f77e5b69dd77b6
+          sceneActive: 0
+        - fileGUID: 88656462140a49549a3860e19d18c831
+          sceneActive: 0
+        - fileGUID: b2580827f784d2d4a8648317aa918599
+          sceneActive: 0
+        - fileGUID: 68bd225ffe1ce8b49bf7e56f0eda2ed0
+          sceneActive: 0
+        - fileGUID: 55b871777192fc34097192dc17474c6c
+          sceneActive: 0
+        - fileGUID: 32cd45d011514584c9c98cc6ab09b94f
+          sceneActive: 0
+        - fileGUID: 357e7a65e9851f743b17f91c086288f1
+          sceneActive: 0
+        - fileGUID: 90b9f5d1f65ddfb4d9a9b756c7482431
+          sceneActive: 0
+        - fileGUID: 394234be6a3a36744aa0f6072c15d746
+          sceneActive: 0
+        - fileGUID: ab4a25942db86724f8b1a146a33dbf92
+          sceneActive: 0
+        - fileGUID: 294f152ee0c43864e92ec9d582cae58f
+          sceneActive: 0
+        - fileGUID: 9f8cf5a115c38a949ab50686eb32e5fe
+          sceneActive: 0
+        - fileGUID: 1dd55fb9f7c511746a8b66f46015c8e3
+          sceneActive: 0
+        - fileGUID: fed6f75cef75dc94d85b997917b56a4b
+          sceneActive: 0
+        - fileGUID: 103635ed13ae0b34ab20e7f69d24e38a
+          sceneActive: 0
+        - fileGUID: 518c04c06875dbf4988d1629ea052b12
+          sceneActive: 0
+        - fileGUID: 16709b6db8d0cea46a99170ba4887ae8
+          sceneActive: 0
+        - fileGUID: 6c6cdfe928725984f8b91aecfcc639d6
+          sceneActive: 0
+        - fileGUID: 5cc4bd824c603e542b54ac864828f521
+          sceneActive: 0
+        - fileGUID: ae977254932d09b4fbf67dc478af3148
+          sceneActive: 0
+        - fileGUID: 2a42f00f497e160448be92268b4c1fea
+          sceneActive: 0
+        - fileGUID: f6cb6f880b6c5d0458c522dd35431268
+          sceneActive: 0
+        - fileGUID: f7074803c0201ad4aa1976b2ae8ce678
+          sceneActive: 0
+        - fileGUID: a6fcd35559583e642a71587f7415d52f
+          sceneActive: 0
+        - fileGUID: 4ff8d90236bb7cf48b31e07201568c06
+          sceneActive: 0
+        - fileGUID: b6913c8d0eb1aeb4ba0ce5bb5b01f458
+          sceneActive: 0
+        - fileGUID: 654ecacadd83b764a8d22e21d56e858a
+          sceneActive: 0
+        - fileGUID: 38bc31041c1428a428bcfe1a9388797c
+          sceneActive: 0
+  _platformList:
+    platforms:
+    - {fileID: -7836553826213680121}
+  _projectConfigurations:
+    configSet:
+      _Buckets: ffffffff0100000003000000ffffffffffffffff0200000000000000
+      _HashCodes: eafc7b64dfcddb6d9704d2065f81b06e000000000000000000000000
+      _Next: ffffffffffffffffffffffffffffffff000000000000000000000000
+      _Count: 4
+      _Version: 4
+      _FreeList: -1
+      _FreeCount: 0
+      _Keys:
+      - WebGL/WebGL/WebGL/IL2CPP
+      - WebGL/WebGL/WebGL
+      - WebGL/WebGL
+      - WebGL
+      - 
+      - 
+      - 
+      _Values:
+      - enabled: 1
+        childKeys: []
+      - enabled: 1
+        childKeys:
+        - WebGL/WebGL/WebGL/IL2CPP
+      - enabled: 1
+        childKeys:
+        - WebGL/WebGL/WebGL
+      - enabled: 1
+        childKeys:
+        - WebGL/WebGL
+      - enabled: 1
+        childKeys: []
+      - enabled: 1
+        childKeys: []
+      - enabled: 1
+        childKeys: []
+    showViewOptions: 0
+    showConfigs: 0
+    showBuildInfo: 0
+    hideDisabled: 0
+    treeView: 0
+    selectedKeyChain: WebGL/WebGL/WebGL/IL2CPP
+  _preBuildActions:
+    buildActions: []
+  _postBuildActions:
+    buildActions: []

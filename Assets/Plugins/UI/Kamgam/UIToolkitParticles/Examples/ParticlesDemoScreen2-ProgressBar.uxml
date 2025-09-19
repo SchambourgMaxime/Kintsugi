@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="height: 100%; background-color: rgb(5, 0, 0); width: 100%; background-image: url(&apos;project://database/Assets/Kamgam/UIToolkitParticles/Examples/Textures/Background.png?fileID=2800000&amp;guid=124093a7e8fb3b7459b6d22c389c6fe7&amp;type=3#Background&apos;); -unity-slice-left: 50; -unity-slice-top: 50; -unity-slice-right: 50; -unity-slice-bottom: 50; -unity-background-image-tint-color: rgb(120, 115, 112); justify-content: center; align-items: center;">
+        <ui:Label text="Loading" display-tooltip-when-elided="true" style="font-size: 49px; color: rgb(41, 28, 18); -unity-font-style: bold; -unity-text-align: upper-center;" />
+        <ui:ProgressBar name="ProgressBar" style="width: 70%; opacity: 1; height: 45px;">
+            <Kamgam.UIToolkitParticles.ParticleImage picking-mode="Ignore" Origin="TopLeft" Position-Y="50" Preview-In-Game-View="false" Position-X-Unit="Percent" Play-On-Show="false" class="pi-534c9ba0-9d29-4ebc-9a92-7be94f9ae969" style="position: absolute; flex-grow: 1; width: 100%; height: 100%;" />
+        </ui:ProgressBar>
+        <ui:Label text="Notice the &quot;rateOverTime&quot; and &quot;simulation space World&quot; settings on the particle system in the scene.&#10;&#10;Click the bar to restart." display-tooltip-when-elided="true" style="font-size: 29px; color: rgb(41, 28, 18); -unity-font-style: normal; -unity-text-align: upper-center; margin-top: 26px; white-space: normal; width: 70%;" />
+    </ui:VisualElement>
+</ui:UXML>

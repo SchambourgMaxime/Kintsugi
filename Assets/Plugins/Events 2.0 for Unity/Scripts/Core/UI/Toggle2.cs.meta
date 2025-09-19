@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: d35c9eaacffeaa246ac3d9be126bf72a
+timeCreated: 1590527659
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168031
+  packageName: Events 2.0 for Unity
+  packageVersion: 1.8.0
+  assetPath: Assets/Gabriel Pereira/Events 2.0 for Unity/Scripts/Core/UI/Toggle2.cs
+  uploadId: 746169

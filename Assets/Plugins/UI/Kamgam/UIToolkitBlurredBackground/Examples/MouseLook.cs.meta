@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: bca5748cfbfdc0c4ab34d0c66f4c1589
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 254328
+  packageName: UI Toolkit Blurred Background - Fast translucent UI Blur image
+  packageVersion: 1.2.2
+  assetPath: Assets/Kamgam/UIToolkitBlurredBackground/Examples/MouseLook.cs
+  uploadId: 712134

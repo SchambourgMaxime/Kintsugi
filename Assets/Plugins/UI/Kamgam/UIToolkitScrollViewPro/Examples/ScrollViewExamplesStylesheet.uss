@@ -1,0 +1,65 @@
+ScrollViewPro .content-box
+{
+    border-radius: 20px;
+    margin: 4px 4px 2px 2px;
+}
+
+/* This is how you set the custom css attributes:
+.scroll-wheel-size-test
+{
+    --mouse-wheel-scroll-size: 18;
+    --unity-metrics-single_line-height: 18;
+}
+*/
+
+/* Button */
+.unity-button
+{
+    font-size: 32px;
+    color: #ffffff;
+    background-color: #148DBE;
+    border-color: #148DBE;
+    border-radius: 10px; 
+}
+
+.unity-button:hover
+{
+    border-color: #148DBE;
+    background-color: #48CFEf;
+}
+
+/* DropDown */
+.unity-popup-field__input
+{
+    border-radius: 20px;
+    background-color: #888;
+    border-color: #888;
+
+    color: white;
+    -unity-font-style: bold;
+}
+
+.unity-popup-field__input:hover,
+.unity-popup-field__input:focus 
+{
+    border-color: #999999;
+    background-color: #999999;
+}
+
+.unity-base-dropdown__container-outer
+{
+    border-width: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.unity-base-dropdown__container-inner
+{
+    background-color: white;
+}
+
+.unity-base-dropdown__item .unity-label
+{
+    font-size: 32px;
+}
+

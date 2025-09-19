@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d2fc447880ee4174f9f120c06f21f714
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168031
+  packageName: Events 2.0 for Unity
+  packageVersion: 1.8.0
+  assetPath: Assets/Gabriel Pereira/Events 2.0 for Unity/Scripts/Core/UnityEvent2_2.cs
+  uploadId: 746169

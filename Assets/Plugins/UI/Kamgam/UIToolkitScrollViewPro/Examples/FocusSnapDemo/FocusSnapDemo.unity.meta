@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4c8ca5e8b16ef74418de45cf43c87090
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 262334
+  packageName: UI Toolkit Scroll View Pro - Infinite Scrolling, Snapping, Paging
+  packageVersion: 1.3.2
+  assetPath: Assets/Kamgam/UIToolkitScrollViewPro/Examples/FocusSnapDemo/FocusSnapDemo.unity
+  uploadId: 712086

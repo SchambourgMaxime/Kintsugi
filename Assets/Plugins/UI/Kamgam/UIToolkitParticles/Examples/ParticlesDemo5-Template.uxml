@@ -1,0 +1,3 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Kamgam.UIToolkitParticles.ParticleImage picking-mode="Ignore" Tint="#FFFFFFFF" Preview-In-Game-View="true" Emitter-Shape="BoxFill" Create-Particle-System="true" name="ParticleImage" class="pi-55c1c83c-d75f-4851-b1f2-ab436f5b854b" style="flex-grow: 1;" />
+</ui:UXML>

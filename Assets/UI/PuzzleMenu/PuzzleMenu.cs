@@ -1,18 +1,17 @@
-using UnityEngine;
 using UnityEngine.UIElements;
+using VV.UI;
 
-public class PuzzleMenu : MonoBehaviour
+public class PuzzleMenu : UIBaseElement
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        if (TryGetComponent(out UIDocument doc))
-        {
-            VisualElement puzzleMenu = doc.rootVisualElement.Q<VisualElement>("PuzzleMenu");
-            Button openBtn = doc.rootVisualElement.Q<Button>("PuzzleMenuButton");
-            openBtn.clicked += () => puzzleMenu.RemoveFromClassList("PuzzleMenuClosed");
-            Button closeBtn = doc.rootVisualElement.Q<Button>("closeMenu");
-            closeBtn.clicked += () => puzzleMenu.AddToClassList("PuzzleMenuClosed");
-        }
+        VisualElement puzzleMenu = Get("PuzzleMenu");
+        Button openBtn = GetButton("PuzzleMenuButton");
+        openBtn.clicked += () => puzzleMenu.RemoveFromClassList("PuzzleMenuClosed");
+        Button closeBtn = GetButton("closeMenu");
+        closeBtn.clicked += () => puzzleMenu.AddToClassList("PuzzleMenuClosed");
     }
+    
+    
 }

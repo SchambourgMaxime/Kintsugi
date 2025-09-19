@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0352a91227f0bb44dbd01ec70e7eab72
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 252297
+  packageName: vInspector 2
+  packageVersion: 2.0.12
+  assetPath: Assets/vInspector/VInspectorSelectionHistory.cs
+  uploadId: 731045

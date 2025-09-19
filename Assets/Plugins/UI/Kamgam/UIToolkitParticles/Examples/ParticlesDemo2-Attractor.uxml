@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Attractor" tooltip="Drag me around in the UI Builder" style="position: absolute; width: 40px; height: 40px; top: 30%; left: 50%; background-color: rgb(0, 146, 173); border-top-left-radius: 19px; border-bottom-left-radius: 19px; border-top-right-radius: 19px; border-bottom-right-radius: 19px; border-left-width: 4px; border-right-width: 4px; border-top-width: 4px; border-bottom-width: 4px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255);" />
+    <ui:VisualElement style="height: 100px; background-color: rgb(5, 0, 0);">
+        <ui:Label text="Drag the blue dot." display-tooltip-when-elided="true" style="color: rgb(214, 214, 214); padding-left: 9px; padding-right: 9px; padding-top: 9px; padding-bottom: 9px; font-size: 20%; -unity-text-align: middle-center; flex-grow: 1; white-space: normal;" />
+    </ui:VisualElement>
+    <Kamgam.UIToolkitParticles.ParticleImage Pos-X="100" Pos-Y="100" Poy-Y-Unit="Percent" Pos-X-Unit="Percent" Origin-Element-Prefer-UI-Builder="false" Add-Attractor="true" Attractor-Element-Name="Attractor" class="pi-93006398-a2eb-4ec0-96b9-0e217783a074" style="height: 208px; flex-grow: 1;" />
+    <ui:VisualElement tooltip="Drag me around in the UI Builder" style="height: 100px; background-color: rgb(0, 0, 0);">
+        <ui:Label text="Check out the &quot;Particle Attractor ForceField&quot; on the Particle System." display-tooltip-when-elided="true" style="color: rgb(214, 214, 214); padding-left: 9px; padding-right: 9px; padding-top: 9px; padding-bottom: 9px; font-size: 20%; flex-grow: 1; -unity-text-align: middle-center; white-space: normal;" />
+    </ui:VisualElement>
+</ui:UXML>

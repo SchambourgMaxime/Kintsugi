@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Kamgam/UIToolkitGlow/Examples/GlowExamplesStyle.uss?fileID=7433441132597879392&amp;guid=541245f5923b2ca469b72c31ad0cbd5d&amp;type=3#GlowExamplesStyle" />
+    <ui:VisualElement style="background-image: none; -unity-background-scale-mode: scale-and-crop; flex-wrap: nowrap; flex-grow: 1; background-color: rgb(255, 255, 255); align-items: center;">
+        <Kamgam.UIToolkitGlow.Glow class-template="g-glow" inner-color="#00FFFFFF" width="21" glow-class-name="g-outline" outer-color="#00FFFFFF" animation="RadialBlobAnimation" animation-name="BlobAnimation" force-subdivision="true" name="Animation1" style="height: 158px; width: 690px; margin-left: 125px; margin-right: 125px; margin-top: 125px; margin-bottom: 125px; background-color: rgb(0, 0, 0); border-left-color: rgb(255, 144, 0); border-right-color: rgb(255, 0, 167); border-top-color: rgb(0, 125, 255); border-bottom-color: rgb(0, 255, 7);">
+            <ui:Label text="Animation 1" display-tooltip-when-elided="true" style="height: 100%; width: 100%; color: rgb(207, 207, 207); font-size: 66px; -unity-font-style: bold; -unity-text-align: middle-center; overflow: hidden; padding-left: 31px; padding-right: 31px; padding-top: 31px; padding-bottom: 31px;" />
+        </Kamgam.UIToolkitGlow.Glow>
+        <Kamgam.UIToolkitGlow.Glow class-template="g-glow" inner-color="#00FFFFFF" width="21" glow-class-name="g-outline" outer-color="#00FFFFFF" animation="RadialBlobAnimation" animation-name="BlobAnimation" force-subdivision="true" name="Animation2" style="height: 158px; width: 690px; margin-left: 125px; margin-right: 125px; margin-top: 125px; margin-bottom: 125px; background-color: rgb(0, 0, 0); border-left-color: rgb(255, 144, 0); border-right-color: rgb(255, 0, 167); border-top-color: rgb(0, 125, 255); border-bottom-color: rgb(0, 255, 7);">
+            <ui:Label text="Animation 2" display-tooltip-when-elided="true" style="height: 100%; width: 100%; color: rgb(207, 207, 207); font-size: 66px; -unity-font-style: bold; -unity-text-align: middle-center; overflow: hidden; padding-left: 31px; padding-right: 31px; padding-top: 31px; padding-bottom: 31px;" />
+        </Kamgam.UIToolkitGlow.Glow>
+    </ui:VisualElement>
+</ui:UXML>

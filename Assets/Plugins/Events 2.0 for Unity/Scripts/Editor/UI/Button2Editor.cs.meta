@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: c75575671bf169044b977e63e5488ce9
+timeCreated: 1590340695
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168031
+  packageName: Events 2.0 for Unity
+  packageVersion: 1.8.0
+  assetPath: Assets/Gabriel Pereira/Events 2.0 for Unity/Scripts/Editor/UI/Button2Editor.cs
+  uploadId: 746169

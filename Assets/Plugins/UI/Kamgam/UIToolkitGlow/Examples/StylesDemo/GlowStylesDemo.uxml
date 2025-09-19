@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Kamgam/UIToolkitGlow/Examples/GlowExamplesStyle.uss?fileID=7433441132597879392&amp;guid=541245f5923b2ca469b72c31ad0cbd5d&amp;type=3#GlowExamplesStyle" />
+    <Style src="project://database/Assets/Kamgam/UIToolkitGlow/Examples/StylesDemo/GlowStylesDemo.uss?fileID=7433441132597879392&amp;guid=b52d0750e092221438af2cc802047bca&amp;type=3#GlowStylesDemo" />
+    <ui:VisualElement style="background-image: none; -unity-background-scale-mode: scale-and-crop; flex-wrap: nowrap; flex-grow: 1; background-color: rgb(255, 255, 255);">
+        <ui:VisualElement style="flex-grow: 1; flex-direction: column; flex-wrap: wrap; align-items: center; justify-content: center; margin-top: 107px;">
+            <ui:Button text="Glow" name="Glow" class="button g-glow" style="border-bottom-right-radius: 37px; border-top-left-radius: 83px; background-color: rgb(0, 0, 0); height: 80px; width: 400px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; scale: 1 1; rotate: 0; border-left-color: rgb(89, 89, 89); border-right-color: rgb(89, 89, 89); border-top-color: rgb(89, 89, 89); border-bottom-color: rgb(89, 89, 89); border-left-width: 16px; border-right-width: 16px; border-top-width: 0; border-bottom-width: 0; overflow: visible; border-top-right-radius: 0; border-bottom-left-radius: 0; margin-left: 40px; margin-right: 40px; margin-top: 40px; margin-bottom: 40px; opacity: 1; color: rgb(255, 255, 255); font-size: 40px;" />
+            <ui:Label text="Glow styled with USS.&#10;Go check out &quot;GlowStylesDemo.uss&quot;." display-tooltip-when-elided="true" style="font-size: 44px; margin-top: 51px; width: 1009px; -unity-text-align: upper-center; height: 154px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

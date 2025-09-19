@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bc0b3c0f7966b7944897f3f4c4550dc6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 254328
+  packageName: UI Toolkit Blurred Background - Fast translucent UI Blur image
+  packageVersion: 1.2.2
+  assetPath: Assets/Kamgam/UIToolkitBlurredBackground/Examples/Materials/Red.mat
+  uploadId: 712134

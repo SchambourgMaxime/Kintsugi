@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 035b50b9802457749838a674a93a2c57
+timeCreated: 1590340695
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168031
+  packageName: Events 2.0 for Unity
+  packageVersion: 1.8.0
+  assetPath: Assets/Gabriel Pereira/Events 2.0 for Unity/Scripts/Editor/UnityEvent2Drawer.cs
+  uploadId: 746169

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1c3e60dfaf0052b4485f371308036c41
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 254328
+  packageName: UI Toolkit Blurred Background - Fast translucent UI Blur image
+  packageVersion: 1.2.2
+  assetPath: Assets/Kamgam/UIToolkitBlurredBackground/UIToolkitBlurredBackground.asmdef
+  uploadId: 712134

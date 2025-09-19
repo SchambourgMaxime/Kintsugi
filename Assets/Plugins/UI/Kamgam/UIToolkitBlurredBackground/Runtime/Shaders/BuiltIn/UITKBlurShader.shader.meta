@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 02c585ad185879e4cb48d6e2683f5448
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 254328
+  packageName: UI Toolkit Blurred Background - Fast translucent UI Blur image
+  packageVersion: 1.2.2
+  assetPath: Assets/Kamgam/UIToolkitBlurredBackground/Runtime/Shaders/BuiltIn/UITKBlurShader.shader
+  uploadId: 712134

@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="ScrollToDemo" class="scroll-to-demo" style="flex-grow: 1;">
+        <ui:Label text="Snapping Vertical" name="Title" style="-unity-font-style: bold; font-size: 52px; color: rgb(255, 255, 255);" />
+        <ui:VisualElement name="Menu" style="height: 58px; flex-direction: row;">
+            <ui:Button text="Button M1" display-tooltip-when-elided="true" name="ButtonM1" style="height: 49px; background-color: rgb(255, 208, 191); font-size: 40px; color: rgb(144, 0, 0); width: 216px;" />
+            <ui:Button text="Button M2" display-tooltip-when-elided="true" name="ButtonM2" style="height: 49px; background-color: rgb(255, 208, 191); font-size: 40px; color: rgb(144, 0, 0); width: 216px;" />
+        </ui:VisualElement>
+        <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" style="height: 217px; width: 465px;">
+            <ui:VisualElement style="background-color: rgb(176, 175, 113); height: 162px;">
+                <ui:Button text="Button I1" display-tooltip-when-elided="true" name="ButtonI1" style="height: 49px; background-color: rgb(255, 208, 191); font-size: 40px; color: rgb(144, 0, 0); width: 216px; display: flex;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="background-color: rgb(122, 176, 113); height: 283px; width: 439px;" />
+        </ui:ScrollView>
+        <ui:VisualElement name="Menu" style="height: 58px; flex-direction: row;">
+            <ui:Button text="Button M3" display-tooltip-when-elided="true" name="ButtonM3" style="height: 49px; background-color: rgb(255, 208, 191); font-size: 40px; color: rgb(144, 0, 0); width: 216px;" />
+            <ui:Button text="Button M4" display-tooltip-when-elided="true" name="ButtonM4" style="height: 49px; background-color: rgb(255, 208, 191); font-size: 40px; color: rgb(144, 0, 0); width: 216px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

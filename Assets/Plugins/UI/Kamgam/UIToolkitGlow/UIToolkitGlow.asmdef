@@ -1,0 +1,22 @@
+{
+    "name": "Kamgam.UIToolkitGlow",
+    "rootNamespace": "",
+    "references": [
+        "Unity.VisualScripting.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.visualscripting",
+            "expression": "0.0.1",
+            "define": "KAMGAM_VISUAL_SCRIPTING"
+        }
+    ],
+    "noEngineReferences": false
+}
