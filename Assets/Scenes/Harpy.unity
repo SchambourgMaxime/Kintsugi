@@ -4941,6 +4941,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fe8e8f66e5f2b14aa2e4745128d76fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onShow:
+    m_PersistentCalls:
+      m_Calls: []
+  onHide:
+    m_PersistentCalls:
+      m_Calls: []
+  document: {fileID: 0}
+  rootStringID: 
+  puzzlePieceAsset: {fileID: 0}
+  puzzlePieceDispenser: {fileID: 0}
 --- !u!1 &1815006034
 GameObject:
   m_ObjectHideFlags: 0
