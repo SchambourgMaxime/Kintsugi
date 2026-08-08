@@ -1,4 +1,5 @@
 using UnityEngine;
+using VV.Utility;
 
 public class PickingManager : MonoBehaviour
 {
@@ -32,9 +33,9 @@ public class PickingManager : MonoBehaviour
         if (!Physics.Raycast(pickingRay, out RaycastHit hit, pickingDistance, LayerMask.GetMask("Pieces"))) return;
         if(hit.collider.gameObject.TryGetComponent(out IPointerSelectable selectable) && selectable.CanBeSelected())
         {
-            selected = hit.collider.gameObject;
-            selectedPlane = new Plane(-pickingCamera.transform.forward.normalized, hit.collider.transform.position);
-            selectedOffset = selectedPlane.ClosestPointOnPlane(hit.point) - hit.collider.transform.position;
+            selected       = hit.collider.gameObject;
+            selectedPlane  = new Plane(-pickingCamera.transform.forward.With(y:0f).normalized, hit.point);
+            selectedOffset = selected.transform.position - hit.point;
         }
     }
     
@@ -47,7 +48,7 @@ public class PickingManager : MonoBehaviour
         {
             Vector3 planePoint = pickingRay.GetPoint(distance);
             DebugDraw.DrawSphere(planePoint, .01f, Color.red, .5f);
-            selected.transform.position = planePoint - selectedOffset;
+            selected.transform.position = planePoint + selectedOffset;
         }
 
         if (!selected.TryGetComponent(out PuzzlePieceController puzzlePieceController)) return;
