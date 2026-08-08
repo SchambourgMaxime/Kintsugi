@@ -5,8 +5,7 @@
         "GUID:79cfd971d39aee544bb22ebb89ffe06c",
         "GUID:21b0c8d1703a94250bfac916590cea4f",
         "GUID:54cb1906aeb4e4264bc1d2aa3818a43f",
-        "GUID:23f3c6063e13e4fd9addce3606ff4e42",
-        "Kamgam.UIToolkitVisualScripting"
+        "GUID:23f3c6063e13e4fd9addce3606ff4e42"
     ],
     "includePlatforms": [
         "Editor"

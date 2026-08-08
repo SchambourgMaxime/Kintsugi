@@ -2,8 +2,7 @@
     "name": "Kamgam.UIToolkitParticles.Editor",
     "rootNamespace": "",
     "references": [
-        "GUID:185995d217b50664eaeebdd9f7e9304b",
-        "Kamgam.UIToolkitParticles"
+        "GUID:185995d217b50664eaeebdd9f7e9304b"
     ],
     "includePlatforms": [
         "Editor"
