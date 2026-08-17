@@ -251,7 +251,7 @@ Transform:
   m_GameObject: {fileID: 69971570}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.70710707, z: -0, w: 0.70710653}
-  m_LocalPosition: {x: 1.86, y: 0.67, z: 0}
+  m_LocalPosition: {x: 2.57, y: 0.67, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -274,7 +274,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &96670592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -668,7 +668,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0.00000022337974, y: 0.70710677, z: -0.00000040219365, w: 0.7071068}
   m_LocalPosition: {x: -0.12326348, y: 0.112301864, z: 1.788785}
-  m_LocalScale: {x: 0.18899675, y: 1, z: 0.362475}
+  m_LocalScale: {x: 0.7689935, y: 1.7354, z: 0.6290391}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1492815289}
@@ -760,7 +760,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.70710707, z: -0, w: 0.70710653}
-  m_LocalPosition: {x: 1.86, y: 0.67, z: 0}
+  m_LocalPosition: {x: 2.57, y: 0.67, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -988,7 +988,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &376610606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2182,7 +2182,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PanelSettings: {fileID: 11400000, guid: 31fff8e2cf5ff7d4b8b89cfe1984d061, type: 2}
   m_ParentUI: {fileID: 0}
-  sourceAsset: {fileID: 9197481963319205126, guid: 1f84b51ca629c6848b212cf324a7da7b, type: 3}
+  sourceAsset: {fileID: 9197481963319205126, guid: eec0dfb4ef8d59f45825cb65c7085ad9, type: 3}
   m_SortingOrder: 0
   m_Position: 0
   m_WorldSpaceSizeMode: 1
@@ -2215,10 +2215,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1089734652}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2cd500c806a5fa42a59697629523e75, type: 3}
+  m_Script: {fileID: 11500000, guid: c6532483a3b13d543bab49eb277e7d03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxRotation: 180
+  rotationTime: 0.2
   cameraCenters:
   - {fileID: 659964958}
   - {fileID: 1713842707}
