@@ -5,6 +5,26 @@ public class PuzzlePieceController : MonoBehaviour, IPointerSelectable
 {
     [SerializeField] private int id;
     public int ID => id;
+
+    private void Start()
+    {
+        foreach (ParticleSystem ps in GetComponentsInChildren<ParticleSystem>())
+        {
+            ps.gameObject.SetActive(false);
+            ps.Stop(true);
+        }
+    }
+    
+    private void OnEnable()
+    {
+        GetComponent<Outline>().enabled = true;
+    }
+    
+    private void OnDisable()
+    {
+
+    }
+
     public void OnPointerDown()
     {
         Debug.Log("Clicked");
@@ -17,12 +37,10 @@ public class PuzzlePieceController : MonoBehaviour, IPointerSelectable
 
     public void OnPointerUp()
     {
-        throw new NotImplementedException();
     }
 
     public void OnPointerPress()
     {
-        throw new NotImplementedException();
     }
     
     #if UNITY_EDITOR
@@ -31,4 +49,14 @@ public class PuzzlePieceController : MonoBehaviour, IPointerSelectable
         id = newID;
     }
     #endif
+    public void OnPiecePlaced()
+    {
+        GetComponent<Outline>().enabled = false;
+
+        foreach (ParticleSystem ps in GetComponentsInChildren<ParticleSystem>())
+        {
+            ps.gameObject.SetActive(true);
+            ps.Play(true);
+        }
+    }
 }

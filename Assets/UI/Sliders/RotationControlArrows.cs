@@ -12,6 +12,7 @@ public class RotationControlArrows : MonoBehaviour
     private float rotationTimeStart;
     private float rotationStart;
     private float rotationEnd;
+    private bool  isRotating;
 
     private void Start()
     {
@@ -27,11 +28,13 @@ public class RotationControlArrows : MonoBehaviour
 
     private void RotateView(int dir)
     {
+        if(!isRotating)
         StartCoroutine(rotate_view_cr(dir));
     }
 
     private IEnumerator rotate_view_cr(int dir)
     {
+        isRotating = true;
         rotationStart     =  cameraCenters[0].eulerAngles.y;
         rotationEnd       = rotationStart + (90f * dir);
         rotationTimeStart =  Time.time;
@@ -42,6 +45,9 @@ public class RotationControlArrows : MonoBehaviour
             SetRotation(yaw);
             yield return new WaitForEndOfFrame();
         }
+        
+        SetRotation(rotationEnd);
+        isRotating = false;
     }
 
     private void SetRotation(float rot)

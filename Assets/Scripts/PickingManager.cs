@@ -13,6 +13,7 @@ public class PickingManager : MonoBehaviour
 
     private GameObject selected = null;
     private Plane selectedPlane;
+    private Vector3 selectedPoint;
     private Vector3 selectedOffset;
 
     private void Awake()
@@ -57,6 +58,7 @@ public class PickingManager : MonoBehaviour
         {
             selected.transform.position = puzzleSolution.GetPiecePosition(puzzlePieceController.ID);
             puzzlePieceController.enabled = false;
+            puzzlePieceController.OnPiecePlaced();
             puzzleSolution.SetPieceSolved(puzzlePieceController.ID);
             selected = null;
         }
